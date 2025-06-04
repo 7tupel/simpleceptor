@@ -1,0 +1,13 @@
+# Clojure
+.nrepl-port
+.cpcache/
+.clj-kondo/.cache/
+
+# build artifacts
+target/
+
+# Dev tooling
+.lsp/
+
+# Repository
+worktrees/
