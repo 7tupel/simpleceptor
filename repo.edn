@@ -1,0 +1,11 @@
+{:scm       {:type      :git
+             :trunk     "main"
+             :origin    "origin"
+             :url       "git@github.com:7tupel/simpleceptor.git"
+             :provider  {:name    :github 
+                         :repo    "simpleceptor",
+                         :owner   "7tupel"}}
+ :products
+ [{:root "simpleceptor/" :version "0.1.0" :key :sc :release-prefix "simpleceptor"}]
+ :bricks
+ []}
