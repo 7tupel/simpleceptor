@@ -1,0 +1,11 @@
+{:paths     ["src"]
+ :deps      {org.clojure/clojure                    {:mvn/version "1.12.0"}
+             manifold/manifold                      {:mvn/version "0.4.3"}}
+ 
+ :aliases   {:nREPL       {:extra-paths     ["dev"]
+                           :extra-deps      {nrepl/nrepl                      {:mvn/version "1.1.0"}
+                                             org.clj-commons/pretty           {:mvn/version "3.5.0"}
+                                             io.github.paintparty/bling       {:mvn/version "0.8.8"}}}
+             :test        {:extra-deps      {io.github.noahtheduke/lazytest {:mvn/version "1.8.0"}}
+                           :extra-paths     ["test"]
+                           :main-opts       ["-m" "lazytest.main"]}}}

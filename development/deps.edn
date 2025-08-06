@@ -1,0 +1,16 @@
+{:paths     []
+ :deps      {org.clojure/clojure                  {:mvn/version "1.12.0"}
+             ;; repl / development related
+             io.github.tonsky/clj-reload          {:mvn/version "0.9.6"}
+             io.github.noahtheduke/lazytest       {:mvn/version "1.8.0"}
+             ;; extras for the example
+             aleph/aleph                          {:mvn/version "0.8.3"}
+             io.github.tonsky/clj-simple-router   {:mvn/version "0.1.2"}
+             org.clj-commons/byte-streams         {:mvn/version "0.3.4"}
+             ;; Simpleceptor
+             net.7tupel/simpleceptor              {:local/root "../simpleceptor"}}
+ 
+ :aliases   {:nREPL       {:extra-paths     ["dev"]
+                           :extra-deps      {nrepl/nrepl                      {:mvn/version "1.1.0"}
+                                             org.clj-commons/pretty           {:mvn/version "3.5.0"}
+                                             io.github.paintparty/bling       {:mvn/version "0.8.8"}}}}}
